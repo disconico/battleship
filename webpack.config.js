@@ -2,11 +2,11 @@ const path = require('path');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 
 module.exports = {
-  mode: 'production',
+  mode: 'development',
   entry: './src/index.js',
   plugins: [
     new HtmlWebpackPlugin({
-      title: 'My to-do list',
+      title: 'Battleship game',
     }),
   ],
   devtool: 'inline-source-map',

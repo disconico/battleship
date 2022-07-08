@@ -1,1 +1,3 @@
-console.log('hello world');
+import Gameboard from './factories/gameboard';
+
+console.log('hello');
